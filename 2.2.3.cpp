@@ -1,5 +1,6 @@
 #include "sqlist.h"
 
+//去重复，时间复杂度为n，空间复杂度为1
 void del_repeat(sqlist &L, int x)
 {
 	int pos = 0;
